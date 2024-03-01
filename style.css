@@ -1,0 +1,48 @@
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+}
+
+#search {
+  background-color: blue;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+#search p {
+  margin: 20px;
+  font-size: 1.5rem;
+}
+
+#search button {
+  margin: 10px;
+  height: 30px;
+  width: 10vw;
+  border-radius: 10px;
+  padding-bottom: 0.5rem;
+  padding-left: 0.1rem;
+  padding-right: 0.1rem;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 1rem;
+  text-align: center;
+  border: none;
+}
+
+#search button:hover {
+  background-color: rgb(17, 159, 48);
+  color: white;
+}
+
+#search input {
+  height: 20px;
+  width: 20vw;
+  color: black !important;
+}
+
+#map {
+  width: 100%;
+  height: calc(100vh - 80px);
+}
